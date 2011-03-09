@@ -23,7 +23,7 @@ list-style-type: none;
 width: 960px;
 margin: 0 auto;
 overflow: hidden;
-background: black;
+background: red;
 text-indent: 39px;
 } 
 
@@ -34,7 +34,7 @@ padding: 3px 20px;
 color: white;
 }
 #header a:hover{
-background: black;
+background: white;
 }
 
 #red {
@@ -50,5 +50,5 @@ margin-bottom: 10px;
 
 }
 p{
-color: black;
+color: blue;
 }
