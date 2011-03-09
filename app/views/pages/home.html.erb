@@ -1,13 +1,26 @@
+<html>
+<head>
+<%= stylesheet_link_tag("structure") %>	
+</head>
+<body>
+<div id='header'>
+<ul id = 'header_links'> 
+<li><%= link_to "Home", root_path,  %></li>
+<li><%= link_to "About", about_path,  %></li>
+<li><%= link_to "Contact", contact_path,  %></li>
 
+</ul>
+</div>
+<div class= "container">
 <h1>Welcome to "Nanbenda" Project</h1>
 
-<p style="font-family:verdana;color:red">
-machi Oru Quater Sollen </p>
+<p>machi Oru Quater Sollen </p>
 
-<p style="font-family:times;color:green">
-Think Better! live Better!</p>
+<p id="red">Think Better! live Better!</p>
 
-<p style="font-size:30px">Hello Friends !!! :-] :P </p>
-
+<p id="green">Hello Friends !!! :-] :P </p>
+</div>
+</body>
+</html>
 
 

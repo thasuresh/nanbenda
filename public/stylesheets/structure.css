@@ -1,0 +1,54 @@
+#header{
+width: 960px;
+margin: 0 auto;
+overflow: hidden;
+background: white;
+}
+
+ul{
+overflow: hidden;
+width: 450px;
+margin: 5px auto;
+
+
+
+}
+li{
+margin: 0 3px;
+float: left;
+list-style-type: none;
+
+}
+.container{
+width: 960px;
+margin: 0 auto;
+overflow: hidden;
+background: black;
+text-indent: 39px;
+} 
+
+#header a{
+background: black;
+text-decoration: none;
+padding: 3px 20px;
+color: white;
+}
+#header a:hover{
+background: black;
+}
+
+#red {
+color: #FF9900;
+}
+.container #add_link{
+font-size: 14px;
+display: block;
+width: 200px;
+line-height: 18px;
+margin-bottom: 10px;
+
+
+}
+p{
+color: black;
+}
