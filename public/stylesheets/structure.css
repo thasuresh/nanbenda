@@ -23,12 +23,12 @@ list-style-type: none;
 width: 960px;
 margin: 0 auto;
 overflow: hidden;
-background: red;
-text-indent: 39px;
+background: whitw;
+
 } 
 
 #header a{
-background: black;
+background: white;
 text-decoration: none;
 padding: 3px 20px;
 color: white;
@@ -38,7 +38,7 @@ background: white;
 }
 
 #red {
-color: #FF9900;
+color: white;
 }
 .container #add_link{
 font-size: 14px;
@@ -49,6 +49,15 @@ margin-bottom: 10px;
 
 
 }
-p{
-color: blue;
+
+
+#new_user .field {
+padding-top: 10px;
 }
+
+#new_user .field label {
+margin-bottom: 25px;
+}
+
+
+
